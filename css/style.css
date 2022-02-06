@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E2D3B !important;
+    color: #a4a7a5 !important;
+}
+
+.my-header {
+    background-color: #2E3A46;
+}
+
+.car-card {
+    background-color: #2E3A46;
+    height: 100%;
+}
+
+.car-card h3 {
+    color: #e7e7e7;
+}
+
+.car-card .img-container {
+    height: 33%;
+    overflow: hidden;
+}
+
+.car-card img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul.dash {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+ul.dash > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
