@@ -8,7 +8,7 @@ const App = new Vue(
             filteredArray: [],
         },
         created() {
-            axios.get('http://localhost:8888/db-first/server/controller-api.php').then((result) => {
+            axios.get('http://localhost:8888/php-snacks-b1/server/controller-api.php').then((result) => {
             this.cars = result.data.results;
             this.filteredArray = this.cars;
             console.log(this.cars);
